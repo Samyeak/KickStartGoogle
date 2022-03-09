@@ -1,0 +1,47 @@
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Update for version 2020.4.185 is not available (latest version: 2020.4.185, downgrade is disallowed).
+checkForUpdatesAndNotify called, downloadPromise is null
+Checking for update
+Found version 2020.4.197 (url: P3X-OneNote-2020.4.197.AppImage)
+Downloading update from P3X-OneNote-2020.4.197.AppImage
+updater cache dir: /home/iadmin/.cache/p3x-onenote-updater
+Cached update sha512 checksum doesn't match the latest available update. New update must be downloaded. Cached: xGueXY1ADo8ZllRg+VefNqfv9b+ROUNslfARJGyvZ7H+FaQYTilJGRqPzxXppgHbcYIkgasEE5Zb+g0nk/aOzw==, expected: ji8S3qYERtaOZJW9pebt/L4C2rYaLnOI3hjntJAF0Cxn63jEmPDkpw3FSL+wWnq9zd+kaPCu3HEA39rAhLP/JQ==. Directory for cached update will be cleaned
+Cannot download differentially, fallback to full download: HttpError: 416 Requested Range Not Satisfiable
+Headers: {
+  "x-amz-request-id": "C5AD4F58EFCFC94F",
+  "x-amz-id-2": "ahLN0MuQ5Vde7jy8U3YugnnpzmhMrWZerNHwb8Siei2HUeCoUWgPJanbG5YJIv72JlSk1hH95MY=",
+  "content-type": "application/xml",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 16 Jun 2020 09:47:20 GMT",
+  "server": "AmazonS3"
+}
+    at createHttpError (/tmp/.mount_P3X-OngDTsRs/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:84:10)
+    at checkIsRangesSupported (/tmp/.mount_P3X-OngDTsRs/resources/app.asar/node_modules/electron-updater/out/differentialDownloader/multipleRangeDownloader.js:139:54)
+    at ClientRequest.<anonymous> (/tmp/.mount_P3X-OngDTsRs/resources/app.asar/node_modules/electron-updater/out/differentialDownloader/DifferentialDownloader.js:300:68)
+    at ClientRequest.emit (events.js:223:5)
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:2561:12)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)
+New version 2020.4.197 has been downloaded to /home/iadmin/.cache/p3x-onenote-updater/pending/P3X-OneNote-2020.4.197.AppImage
+Auto install update on quit
+Install: isSilent: true, isForceRunAfter: false
